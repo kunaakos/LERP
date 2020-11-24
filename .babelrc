@@ -1,0 +1,9 @@
+{
+	"plugins": [
+		"emotion"
+	],
+	"presets": [
+		"@babel/preset-typescript",
+		"@babel/preset-react"
+	]
+}

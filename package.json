@@ -1,0 +1,38 @@
+{
+    "name": "lerp",
+    "version": "0.0.0",
+    "description": "control your LEGO creations from the comfort of your browser",
+    "main": "index.html",
+    "private": true,
+    "scripts": {
+        "start": "parcel index.html --open",
+        "build": "parcel build index.html",
+        "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+    },
+    "dependencies": {
+        "@emotion/core": "^10.0.28",
+        "@emotion/styled": "^10.0.27",
+        "@material-ui/core": "^4.10.0",
+        "@material-ui/icons": "^4.9.1",
+        "lodash": "4.17.15",
+        "nipplejs": "0.8.4",
+        "node-poweredup": "6.4.1",
+        "prettier": "^2.2.0",
+        "react": "16.12.0",
+        "react-dom": "16.12.0",
+        "react-grid-layout": "^0.18.3",
+        "react-storage-hooks": "^4.0.1",
+        "react-useportal": "^1.0.13"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.2",
+        "@babel/preset-react": "^7.10.1",
+        "@babel/preset-typescript": "^7.10.1",
+        "@types/react": "16.9.17",
+        "@types/react-dom": "16.9.4",
+        "babel-core": "^6.26.3",
+        "babel-plugin-emotion": "^10.0.33",
+        "parcel": "^2.0.0-alpha.3.2",
+        "typescript": "^3.9.3"
+    }
+}
